@@ -2,6 +2,8 @@
   "('Главная страница')": "('Главная страница')",
   "('О себе')": "('О себе')",
   "Toggle": "Toggle",
+  "decrement": "decrement",
+  "increment": "increment",
   "throw error": "throw error",
   "Войти": "Войти",
   "Главная страница": "",
