@@ -7,5 +7,11 @@
   "throw error": "throw error",
   "Главная страница": "Main page",
   "О сайте": "About page",
-  "Короткий язык": "En"
+  "Короткий язык": "En",
+  "Форма авторизации": "Auth form",
+  "Введите логин": "Enter username",
+  "Введите пароль": "Enter password",
+  "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
+  "Выйти": "Logout"
+
 }
