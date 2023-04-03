@@ -1,7 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { Dark } from 'widgets/PageError/ui/PageError.stories';
 import { AppLink, AppLinkTheme } from './AppLink';
 
 export default {
