@@ -14,7 +14,7 @@ export default {
 } as ComponentMeta<typeof ProfileCard>;
 const Template: ComponentStory<typeof ProfileCard> = (args) => <ProfileCard {...args} />;
 
-export const Primary = Template.bind({});
+/* export const Primary = Template.bind({});
 
 Primary.args = {
     data: {
@@ -27,7 +27,7 @@ Primary.args = {
         currency: Currency.RUB,
         avatar,
     },
-};
+}; */
 
 export const WithError = Template.bind({});
 
