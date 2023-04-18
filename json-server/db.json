@@ -121,6 +121,42 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "-D21BhR"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "U48AX8L"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123123",
+      "id": "5rrHBrn"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asd",
+      "id": "48G10gC"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Привет мир",
+      "id": "k_Xnmdn"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "123",
+      "id": "BnBEjuv"
     }
   ],
   "users": [
@@ -139,14 +175,28 @@
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     }
   ],
-  "profile": {
-    "first": "Стас",
-    "lastname": "Ворожцов",
-    "age": 22,
-    "currency": "EUR",
-    "country": "Ukraine",
-    "city": "Yekaterinburg",
-    "username": "admin",
-    "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Стас",
+      "lastname": "Ворожцов",
+      "age": 22,
+      "currency": "EUR",
+      "country": "Ukraine",
+      "city": "Yekaterinburg",
+      "username": "admin",
+      "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
+    },
+    {
+      "id": "2",
+      "first": "Стас",
+      "lastname": "Friman",
+      "age": 35,
+      "currency": "EUR",
+      "country": "Russia",
+      "city": "Yekaterinburg",
+      "username": "user",
+      "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
+    }
+  ]
 }

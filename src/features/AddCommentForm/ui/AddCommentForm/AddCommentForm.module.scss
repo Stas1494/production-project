@@ -1,18 +1,12 @@
-.CommentCard {
-    padding: 10px;
+.AddCommentForm {
     border: 1px solid var(--primary-color);
-}
-
-.header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
-}
-
-.text {
+    padding: 20px;
     margin-top: 10px;
 }
 
-.loading {
-    border: none;
+.input {
+    flex-grow: 1;
 }

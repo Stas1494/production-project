@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { CommentList } from './CommentList';
 
 export default {
-    title: 'shared/CommentList',
+    title: 'entities/Comment/CommentList',
     component: CommentList,
 
     argTypes: {
@@ -14,4 +14,26 @@ const Template: ComponentStory<typeof CommentList> = (args) => <CommentList {...
 
 export const Normal = Template.bind({});
 
-Normal.args = {};
+Normal.args = {
+    comments: [
+        {
+            id: '1',
+            text: 'hello world',
+            user: { id: '1', username: 'Ivan' },
+        },
+        {
+            id: '2',
+            text: 'comment 22',
+            user: { id: '2', username: 'Petr' },
+        },
+    ],
+};
+
+export const Loading = Template.bind({});
+
+Loading.args = {
+    comments: [
+
+    ],
+    isLoading: true,
+};
