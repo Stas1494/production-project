@@ -3,5 +3,7 @@ export {
 } from './ui/ArticleDetailsPage.async';
 
 export { ArticleDetailsCommentsSchema } from './model/types/ArticleDetailsCommentsSchema';
+export { ArticleDetailsRecommendationsSchema } from './model/types/ArticleDetailsRecommendationsSchema';
+export { ArticleDetailsPageSchema } from './model/types/index';
 export { getArticleCommentsIsLoading } from './model/selectors/comments';
 export { getArticleCommentsError } from './model/selectors/comments';
