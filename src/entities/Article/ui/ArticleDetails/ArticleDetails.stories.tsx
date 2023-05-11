@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Article } from 'entities/Article';
-import { ArticleBlockType, ArticleTypes } from 'entities/Article/model/types/article';
+import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
 import { ArticleDetails } from './ArticleDetails';
 
 export default {
@@ -26,7 +26,7 @@ const article : Article = {
         id: '1',
         username: 'Stas',
     },
-    type: [ArticleTypes.IT],
+    type: [ArticleType.IT],
     blocks: [
         {
             id: '1',

@@ -1,5 +1,5 @@
 import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
-import { ArticleBlockType, ArticleTypes } from 'entities/Article/model/types/article';
+import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
 import { fetchArticleById } from 'entities/Article/model/service/fetchArticleById/fetchArticleById';
 
 const data = {
@@ -9,7 +9,7 @@ const data = {
     img: 'https://teknotower.com/wp-content/uploads/2020/11/js.png',
     views: 1022,
     createdAt: '26.02.2022',
-    type: [ArticleTypes.IT],
+    type: [ArticleType.IT],
     blocks: [
         {
             id: '1',
