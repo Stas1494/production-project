@@ -622,6 +622,18 @@
       "userId": "1",
       "text": "Good",
       "id": "ocolKpN"
+    },
+    {
+      "articleId": "14",
+      "userId": "1",
+      "text": "GHb",
+      "id": "JM0XUG9"
+    },
+    {
+      "articleId": "4",
+      "userId": "2",
+      "text": "Redux top",
+      "id": "PNu1rGO"
     }
   ],
   "users": [
@@ -643,24 +655,24 @@
   "profile": [
     {
       "id": "1",
-      "first": "Стас",
+      "first": "Станислав",
       "lastname": "Ворожцов",
-      "age": 22,
-      "currency": "EUR",
-      "country": "Ukraine",
+      "age": 23,
+      "currency": "USD",
+      "country": "Armenia",
       "city": "Yekaterinburg",
       "username": "admin",
       "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
     },
     {
       "id": "2",
-      "first": "Стас",
-      "lastname": "Friman",
-      "age": 35,
-      "currency": "EUR",
-      "country": "Russia",
-      "city": "Yekaterinburg",
-      "username": "user",
+      "first": "Harry",
+      "lastname": "Potter",
+      "age": 14,
+      "currency": "USD",
+      "country": "Kazakhstan",
+      "city": "London",
+      "username": "Volendemort",
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     }
   ]
