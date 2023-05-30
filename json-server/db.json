@@ -667,10 +667,10 @@
   "profile": [
     {
       "id": "1",
-      "first": "Станислаadsdadsaas",
+      "first": "Станислав",
       "lastname": "Ворожцов",
       "age": 23,
-      "currency": "USD",
+      "currency": "RUB",
       "country": "Armenia",
       "city": "Yekaterinburg",
       "username": "admin",

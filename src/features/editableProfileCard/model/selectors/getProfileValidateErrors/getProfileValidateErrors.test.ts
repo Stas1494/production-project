@@ -1,6 +1,6 @@
 import { StateSchema } from 'app/providers/StoreProvider';
-import { ValidateProfileError } from '../../types/profile';
-import { getProfileValidateErrors } from '../getProfileValidateErrors/getProfileValidateErrors';
+import { getProfileValidateErrors } from './getProfileValidateErrors';
+import { ValidateProfileError } from '../../types/editableProfileCardSchema';
 
 describe('getProfileReadonly.test', () => {
     test('should work with filled state', () => {
