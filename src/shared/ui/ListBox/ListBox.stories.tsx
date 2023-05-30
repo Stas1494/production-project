@@ -1,13 +1,7 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import 'app/styles/index.scss';
-import { Currency } from 'entities/Currency';
 import { ListBox } from './ListBox';
 
-const options = [
-    { value: Currency.RUB, content: Currency.RUB },
-    { value: Currency.EUR, content: Currency.EUR, disabled: true },
-    { value: Currency.USD, content: Currency.USD },
-];
 export default {
     title: 'shared/ListBox',
     component: ListBox,
@@ -15,23 +9,56 @@ export default {
     argTypes: {
         backgroundColor: { control: 'color' },
     },
+    decorators: [
+        (Story) => <div style={{ padding: 200 }}><Story /></div>,
+    ],
 } as ComponentMeta<typeof ListBox>;
 const Template: ComponentStory<typeof ListBox> = (args) => <ListBox {...args} />;
 
-export const DropdownBottom = Template.bind({});
+export const BottomRight = Template.bind({});
 
-DropdownBottom.args = {
-    defaultValue: 'Укажите значение',
+BottomRight.args = {
     value: '1',
-    items: options,
-    direction: 'bottom',
+    items: [
+        { value: '1', content: '1231231wawdqweqe' },
+        { value: '1123', content: '1231231wawdqweqe' },
+        { value: '12', content: '1231231wawdqweqe' },
+    ],
+    direction: 'bottom right',
 };
 
-export const DropdownTop = Template.bind({});
+export const TopRight = Template.bind({});
 
-DropdownTop.args = {
-    defaultValue: 'Укажите значение',
+TopRight.args = {
     value: '1',
-    items: options,
-    direction: 'top',
+    items: [
+        { value: '1', content: '1231231wawdqweqe' },
+        { value: '1123', content: '1231231wawdqweqe' },
+        { value: '12', content: '1231231wawdqweqe' },
+    ],
+    direction: 'top right',
+};
+
+export const BottomLeft = Template.bind({});
+
+BottomLeft.args = {
+    value: '1',
+    items: [
+        { value: '1', content: '1231231wawdqweqe' },
+        { value: '1123', content: '1231231wawdqweqe' },
+        { value: '12', content: '1231231wawdqweqe' },
+    ],
+    direction: 'bottom left',
+};
+
+export const TopLeft = Template.bind({});
+
+TopLeft.args = {
+    value: '1',
+    items: [
+        { value: '1', content: '1231231wawdqweqe' },
+        { value: '1123', content: '1231231wawdqweqe' },
+        { value: '12', content: '1231231wawdqweqe' },
+    ],
+    direction: 'top left',
 };
