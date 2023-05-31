@@ -653,14 +653,21 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN",
+      "roles": ["ADMIN"],
       "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER",
+      "roles": ["USER"],
+      "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": ["MANAGER"],
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     }
   ],
