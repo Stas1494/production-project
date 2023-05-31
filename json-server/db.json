@@ -646,6 +646,30 @@
       "userId": "1",
       "text": "dfkjsdlfkjs",
       "id": "AlwsfIB"
+    },
+    {
+      "articleId": "11",
+      "userId": "1",
+      "text": "sdfsdf",
+      "id": "1aoZImh"
+    },
+    {
+      "articleId": "11",
+      "userId": "1",
+      "text": "dsfdf",
+      "id": "DnpOtW6"
+    },
+    {
+      "articleId": "11",
+      "userId": "1",
+      "text": "a",
+      "id": "BtvPkdd"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "asd",
+      "id": "d7yhBHJ"
     }
   ],
   "users": [
@@ -653,21 +677,21 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "roles": ["ADMIN"],
+      "role": ["ADMIN"],
       "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "roles": ["USER"],
+      "role": ["USER"],
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     },
     {
       "id": "3",
       "username": "manager",
       "password": "123",
-      "roles": ["MANAGER"],
+      "role": ["USER"],
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     }
   ],
