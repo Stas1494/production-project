@@ -3,7 +3,6 @@ import { StoreProvider } from './ui/StoreProvider';
 import { AppDispatch, createReduxStore } from './config/store';
 
 export {
-    createReduxStore,
     reduxStoreWithManager,
     StoreProvider,
 };
