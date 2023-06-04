@@ -51,7 +51,7 @@ export default {
         }],
     ],
 
-    // All imported modules in your tests should be mocked automatically
+    // All imported model in your tests should be mocked automatically
     // automock: false,
 
     // Stop running tests after `n` failures
@@ -107,7 +107,7 @@ export default {
 
     // An array of directory names to be searched recursively up from the requiring module's location
 
-    // An array of file extensions your modules use
+    // An array of file extensions your model use
 
     // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
     // moduleNameMapper: {},
@@ -142,7 +142,7 @@ export default {
     // Automatically restore mock state and implementation before every test
     // restoreMocks: false,
 
-    // The root directory that Jest should scan for tests and modules within
+    // The root directory that Jest should scan for tests and model within
 
     // A list of paths to directories that Jest should use to search for files in
     // roots: [
@@ -152,16 +152,16 @@ export default {
     // Allows you to use a custom runner instead of Jest's default test runner
     // runner: "jest-runner",
 
-    // The paths to modules that run some code to configure or set up the testing environment before each test
+    // The paths to model that run some code to configure or set up the testing environment before each test
     // setupFiles: [],
 
-    // A list of paths to modules that run some code to configure or set up the testing framework before each test
+    // A list of paths to model that run some code to configure or set up the testing framework before each test
     // setupFilesAfterEnv: [],
 
     // The number of seconds after which a test is considered as slow and reported as such in the results.
     // slowTestThreshold: 5,
 
-    // A list of paths to snapshot serializer modules Jest should use for snapshot testing
+    // A list of paths to snapshot serializer model Jest should use for snapshot testing
     // snapshotSerializers: [],
 
     // The test environment that will be used for testing
@@ -203,7 +203,7 @@ export default {
     //   "\\.pnp\\.[^\\\\]+$"
     // ],
 
-    // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
+    // An array of regexp pattern strings that are matched against all model before the module loader will automatically return a mock for them
     // unmockedModulePathPatterns: undefined,
 
     // Indicates whether each individual test should be reported during the run

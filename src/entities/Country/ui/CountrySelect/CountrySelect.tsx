@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Select } from 'shared/ui/Select/Select';
 import { ChangeEvent, memo, useCallback } from 'react';
 import { Currency } from 'entities/Currency';
-import { ListBox } from 'shared/ui/ListBox/ListBox';
+import { ListBox } from 'shared/ui/Popups/ui/ListBox/ListBox';
 import { Country } from '../../model/types/coutry';
 
 interface CountrySelectProps {
