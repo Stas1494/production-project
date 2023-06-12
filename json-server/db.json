@@ -693,6 +693,12 @@
       "userId": "1",
       "text": "asd",
       "id": "d7yhBHJ"
+    },
+    {
+      "articleId": "4",
+      "userId": "1",
+      "text": "sdf",
+      "id": "kbwd6ag"
     }
   ],
   "users": [
@@ -730,8 +736,8 @@
       "first": "Станислав",
       "lastname": "Ворожцов",
       "age": 23,
-      "currency": "EUR",
-      "country": "Armenia",
+      "currency": "USD",
+      "country": "Ukraine",
       "city": "Yekaterinburg",
       "username": "admin",
       "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
