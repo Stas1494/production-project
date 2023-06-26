@@ -736,8 +736,8 @@
       "first": "Станислав",
       "lastname": "Ворожцов",
       "age": 23,
-      "currency": "USD",
-      "country": "Ukraine",
+      "currency": "EUR",
+      "country": "Belarus",
       "city": "Yekaterinburg",
       "username": "admin",
       "avatar": "https://pixelbox.ru/wp-content/uploads/2021/03/ava-instagram-48.jpg"
@@ -752,6 +752,65 @@
       "city": "London",
       "username": "Volendemort",
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
+    }
+  ],
+  "article-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "2"
+    },
+    {
+      "userId": "1",
+      "articleId": "3",
+      "rate": 5,
+      "id": "8ANJMMY"
+    },
+    {
+      "userId": "1",
+      "articleId": "4",
+      "rate": 3,
+      "feedback": "Norm",
+      "id": "CDTXhZX"
+    },
+    {
+      "userId": "1",
+      "articleId": "10",
+      "rate": 3,
+      "feedback": "bla bla",
+      "id": "3kAeMQg"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 5,
+      "feedback": "Крутой парень",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хых",
+      "userId": "1",
+      "profileId": "2"
+    },
+    {
+      "userId": "2",
+      "profileId": "2",
+      "rate": 4,
+      "feedback": "Yes yes",
+      "id": "YIeArvn"
     }
   ]
 }
