@@ -78,7 +78,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
-        'st-import-plugin/path-checker': 'error',
+        'st-import-plugin/path-checker': ['error', {alias: '@'}],
     },
     globals: {
         __IS_DEV__: true,
