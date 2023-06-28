@@ -1,8 +1,9 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { RatingCard } from './RatingCard';
+import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 
 export default {
-    title: 'shared/RatingCard',
+    title: 'entities/Rating/RatingCard',
     component: RatingCard,
 
     argTypes: {
@@ -13,5 +14,3 @@ export default {
 const Template: ComponentStory<typeof RatingCard> = (args) => <RatingCard {...args} />;
 
 export const Normal = Template.bind({});
-
-Normal.args = {};
