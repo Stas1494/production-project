@@ -1,5 +1,4 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import '@/app/styles/index.scss';
 import { ListBox } from './ListBox';
 
 export default {

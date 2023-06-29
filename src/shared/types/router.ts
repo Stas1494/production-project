@@ -1,5 +1,5 @@
 import { RouteProps } from 'react-router-dom';
-// TODO
+// eslint-disable-next-line st-import-plugin/layer-imports
 import { UserRole } from '@/entities/User';
 
 export type AppRouterProps = RouteProps & {

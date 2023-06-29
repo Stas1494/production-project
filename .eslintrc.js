@@ -85,6 +85,12 @@ module.exports = {
                 alias: '@',
                 testFilesPatterns: ['**/*.test.*', '**/*.story.*', '**/StoreDecorator.tsx'],
             }],
+        'st-import-plugin/layer-imports': [
+            'error',
+            {
+                alias: '@',
+                ignoreImportPatterns: ['**/StoreProvider', '**/testing'],
+            }],
     },
     globals: {
         __IS_DEV__: true,
