@@ -32,6 +32,7 @@ module.exports = {
         'i18next',
         'react-hooks',
         'st-import-plugin',
+        'unused-imports',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -40,6 +41,7 @@ module.exports = {
         'react/jsx-filename-extension': [
             2, { extensions: ['.js', '.jsx', '.tsx'] },
         ],
+        'unused-imports/no-unused-imports': 'error',
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'warn',
