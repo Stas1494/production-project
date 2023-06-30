@@ -794,6 +794,13 @@
       "rate": 3,
       "feedback": "bla bla",
       "id": "3kAeMQg"
+    },
+    {
+      "userId": "2",
+      "articleId": "14",
+      "rate": 5,
+      "feedback": "Nice",
+      "id": "-qIJiMW"
     }
   ],
   "profile-ratings": [
