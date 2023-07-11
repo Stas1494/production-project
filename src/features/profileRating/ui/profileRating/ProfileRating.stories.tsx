@@ -1,5 +1,6 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import ProfileRating from './ProfileRating';
+import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 
 export default {
     title: 'features/ProfileRating',
@@ -15,3 +16,5 @@ const Template: ComponentStory<typeof ProfileRating> = (args) => <ProfileRating 
 export const Normal = Template.bind({});
 
 Normal.args = {};
+
+Normal.decorators = [StoreDecorator({})];
