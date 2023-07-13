@@ -59,7 +59,7 @@ describe('fetchArticleById.test', () => {
         expect(result.payload).toEqual(data);
     });
 
-    test('error login', async () => {
+    test('error login.ts', async () => {
         const thunk = new TestAsyncThunk(fetchArticleById);
         thunk.api.get.mockReturnValue(Promise.resolve({ status: 403 }));
         const result = await thunk.callThunk('1');

@@ -734,10 +734,19 @@
     },
     {
       "id": "3",
-      "username": "manager",
+      "username": "testuser",
       "password": "123",
       "role": [
         "USER"
+      ],
+      "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "role": [
+        "ADMIN"
       ],
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     }
@@ -763,6 +772,17 @@
       "country": "Kazakhstan",
       "city": "London",
       "username": "Volendemort",
+      "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
+    },
+    {
+      "id": "3",
+      "first": "test",
+      "lastname": "user",
+      "age": 50,
+      "currency": "USD",
+      "country": "Kazakhstan",
+      "city": "London",
+      "username": "testuser",
       "avatar": "https://static10.tgstat.ru/channels/_0/59/591b712ff223991fb3865c9d86326a39.jpg"
     }
   ],
