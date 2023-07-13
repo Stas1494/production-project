@@ -559,6 +559,19 @@
           "title": "Рисунок 1 - скриншот сайта"
         }
       ]
+    },
+    {
+      "title": "Javascript news NEW",
+      "subtitle": "Что нового в JS за 2023 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "vZYiqhH"
     }
   ],
   "comments": [

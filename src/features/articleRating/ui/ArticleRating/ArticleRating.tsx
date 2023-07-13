@@ -59,7 +59,6 @@ const ArticleRating = memo((props: ArticleRatingProps) => {
             title={t('Оцените статью')}
             feedbackTitle={t('Оставте свой отзыв о статье, это поможет улучшить качество')}
             hasFeedback
-
         />
     );
 });
